@@ -5,7 +5,6 @@
     // Benutzerdaten aus localStorage holen
     const gender = localStorage.getItem('gender'); // Erwartet 'male' oder 'female'
     const birthdate = localStorage.getItem('birthdate');
-    const userStatus = localStorage.getItem('status');
     const postalcode = localStorage.getItem('postalcode');
 
     // Funktion zur Berechnung des Alters
@@ -30,20 +29,8 @@
     }
 
     // Filter für Benutzer unter 12 Jahren
-    if (alter !== null && alter < 12) {
+    if (alter !== null && alter < 18) {
         vereinigungen = []; // Alle Vereinigungen entfernen
-    } else {
-        // Filterung der Vereinigungen basierend auf den Benutzerdaten
-        vereinigungen = vereinigungen.filter(vereinigung => {
-            let include = true;
-
-            // Geschlechtsbasierte Filterung
-            if (gender === 'männlich' && vereinigung.name === 'Frauen Union') {
-                include = false;
-            }
-
-            return include;
-        });
     }
 
     // Überprüfen, ob noch Vereinigungen vorhanden sind
