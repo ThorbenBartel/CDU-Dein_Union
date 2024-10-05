@@ -1,6 +1,6 @@
 {
     "Köln": {
-      "JU": [
+      "CDU": [
         {
           "name": "JU Köln Networking Event",
           "adresse": "Jungstraße 12, 50667 Köln",
@@ -19,21 +19,10 @@
           "datum": "2024-07-18",
           "uhrzeit": "15:00"
         }
-      ],
-      "CDA": [
-        {
-          "name": "CDU Köln Jahreskonferenz",
-          "adresse": "Konrad-Adenauer-Platz 1, 50668 Köln",
-          "beschreibung": "Jahreskonferenz der CDU Köln.",
-          "link": "https://cdu-koeln.de/anmeldung",
-          "hotline": "0221-654321",
-          "datum": "2024-09-25",
-          "uhrzeit": "09:00"
-        }
       ]
     },
     "Düsseldorf": {
-      "JU": [
+      "CDU": [
         {
           "name": "JU Düsseldorf Frühjahrsveranstaltung",
           "adresse": "Schlossallee 8, 40213 Düsseldorf",
@@ -43,32 +32,10 @@
           "datum": "2024-04-20",
           "uhrzeit": "14:00"
         }
-      ],
-      "MIT": [
-        {
-          "name": "MIT Düsseldorf Wirtschaftstreffen",
-          "adresse": "Wirtschaftsstraße 30, 40210 Düsseldorf",
-          "beschreibung": "Wirtschaftstreffen der Mittelstands- und Wirtschaftsvereinigung in Düsseldorf.",
-          "link": "https://mit-duesseldorf.de/anmeldung",
-          "hotline": "0211-654321",
-          "datum": "2024-06-15",
-          "uhrzeit": "10:00"
-        }
       ]
     },
     "Dortmund": {
-      "JU": [
-        {
-          "name": "JU Dortmund Treffen",
-          "adresse": "Ringstraße 50, 44135 Dortmund",
-          "beschreibung": "Treffen der Jungen Union Dortmund.",
-          "link": "https://ju-dortmund.de/treffen",
-          "hotline": "0231-987654",
-          "datum": "2024-05-10",
-          "uhrzeit": "17:00"
-        }
-      ],
-      "CDA": [
+      "CDU": [
         {
           "name": "CDA Dortmund Jahresversammlung",
           "adresse": "Hauptplatz 12, 44137 Dortmund",
@@ -81,17 +48,6 @@
       ]
     },
     "Wuppertal": {
-      "JU": [
-        {
-          "name": "JU Wuppertal Jugendkonferenz",
-          "adresse": "Jugendallee 3, 42103 Wuppertal",
-          "beschreibung": "Jugendkonferenz der Jungen Union Wuppertal.",
-          "link": "https://ju-wuppertal.de/konferenz",
-          "hotline": "0202-987654",
-          "datum": "2024-08-05",
-          "uhrzeit": "13:00"
-        }
-      ],
       "CDU": [
         {
           "name": "CDU Wuppertal Neujahrsempfang",
@@ -105,26 +61,6 @@
       ]
     },
     "Essen": {
-      "JU": [
-        {
-          "name": "JU Essen Frühjahrstreffen",
-          "adresse": "Marktplatz 1, 45127 Essen",
-          "beschreibung": "Frühjahrstreffen der Jungen Union Essen.",
-          "link": "https://ju-essen.de/fruehjahrstreffen",
-          "hotline": "0201-123456",
-          "datum": "2024-04-05",
-          "uhrzeit": "16:00"
-        },
-        {
-          "name": "JU Essen Sommergipfel",
-          "adresse": "Bürgerpark 12, 45131 Essen",
-          "beschreibung": "Sommergipfel der Jungen Union Essen.",
-          "link": "https://ju-essen.de/sommergipfel",
-          "hotline": "0201-654321",
-          "datum": "2024-07-22",
-          "uhrzeit": "14:00"
-        }
-      ],
       "CDU": [
         {
           "name": "CDU Essen Jahreskonferenz",
@@ -134,17 +70,6 @@
           "hotline": "0201-987654",
           "datum": "2024-09-14",
           "uhrzeit": "09:30"
-        }
-      ],
-      "MIT": [
-        {
-          "name": "MIT Essen Business-Konferenz",
-          "adresse": "Konferenzzentrum, 45139 Essen",
-          "beschreibung": "Business-Konferenz der Mittelstandsvereinigung Essen.",
-          "link": "https://mit-essen.de/business",
-          "hotline": "0201-321456",
-          "datum": "10.05.2024",
-          "uhrzeit": "10:30"
         }
       ]
     }
