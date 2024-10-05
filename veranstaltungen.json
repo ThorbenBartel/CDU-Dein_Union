@@ -2,19 +2,19 @@
     "Köln": {
       "CDU": [
         {
-          "name": "JU Köln Networking Event",
+          "name": "CDU Köln Networking Event",
           "adresse": "Jungstraße 12, 50667 Köln",
           "beschreibung": "Netzwerktreffen der Jungen Union Köln für junge Politiker.",
-          "link": "https://ju-koeln.de/anmeldung",
+          "link": "https://cdu-koeln.de/anmeldung",
           "hotline": "0221-987654",
           "datum": "2024-03-12",
           "uhrzeit": "18:00"
         },
         {
-          "name": "JU Köln Sommerfest",
+          "name": "CDU Köln Sommerfest",
           "adresse": "Parkallee 45, 50767 Köln",
           "beschreibung": "Sommerfest der Jungen Union Köln.",
-          "link": "https://ju-koeln.de/sommerfest",
+          "link": "https://cdu-koeln.de/sommerfest",
           "hotline": "0221-123456",
           "datum": "2024-07-18",
           "uhrzeit": "15:00"
@@ -24,10 +24,36 @@
     "Düsseldorf": {
       "CDU": [
         {
-          "name": "JU Düsseldorf Frühjahrsveranstaltung",
+          "name": "CDU Düsseldorf Frühjahrsveranstaltung",
           "adresse": "Schlossallee 8, 40213 Düsseldorf",
-          "beschreibung": "Frühjahrsveranstaltung der Jungen Union Düsseldorf.",
-          "link": "https://ju-duesseldorf.de/fruehjahr",
+          "beschreibung": "Frühjahrsveranstaltung der CDU Düsseldorf.",
+          "link": "https://cdu-duesseldorf.de/fruehjahr",
+          "hotline": "0211-987654",
+          "datum": "2024-04-20",
+          "uhrzeit": "14:00"
+        }
+      ]
+    },
+    "Aachen": {
+      "CDU": [
+        {
+          "name": "CDU Aachen Frühjahrsveranstaltung",
+          "adresse": "Franzstraße 45, 52064 Aachen",
+          "beschreibung": "Frühjahrsveranstaltung der CDU Aachen.",
+          "link": "https://cdu-aachen.de/fruehjahr",
+          "hotline": "0211-987654",
+          "datum": "2024-04-20",
+          "uhrzeit": "14:00"
+        }
+      ]
+    },
+    "Ense": {
+      "CDU": [
+        {
+          "name": "CDU Ense Frühjahrsveranstaltung",
+          "adresse": "Hauptstraße 40",
+          "beschreibung": "Frühjahrsveranstaltung der CDU Ense.",
+          "link": "https://cdu-ense.de/fruehjahr",
           "hotline": "0211-987654",
           "datum": "2024-04-20",
           "uhrzeit": "14:00"
@@ -37,10 +63,10 @@
     "Dortmund": {
       "CDU": [
         {
-          "name": "CDA Dortmund Jahresversammlung",
+          "name": "CDU Dortmund Jahresversammlung",
           "adresse": "Hauptplatz 12, 44137 Dortmund",
-          "beschreibung": "Jahresversammlung der CDA Dortmund.",
-          "link": "https://cda-dortmund.de/versammlung",
+          "beschreibung": "Jahresversammlung der CDU Dortmund.",
+          "link": "https://cdu-dortmund.de/versammlung",
           "hotline": "0231-654321",
           "datum": "2024-09-08",
           "uhrzeit": "11:00"
