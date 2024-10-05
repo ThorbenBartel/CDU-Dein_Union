@@ -6,8 +6,6 @@
     const gender = localStorage.getItem('gender'); // Erwartet 'male' oder 'female'
     const birthdate = localStorage.getItem('birthdate');
     const userStatus = localStorage.getItem('status');
-    const evangelisch = localStorage.getItem('evangelisch') === 'true'; // Konvertiere zu boolean
-    const lsbtq = localStorage.getItem('lsbtq') === 'true'; // Konvertiere zu boolean
     const postalcode = localStorage.getItem('postalcode');
 
     // Funktion zur Berechnung des Alters
@@ -42,28 +40,6 @@
             // Geschlechtsbasierte Filterung
             if (gender === 'männlich' && vereinigung.name === 'Frauen Union') {
                 include = false;
-            }
-
-            // Statusbasierte Filterung
-            const statusesToExcludeRCDS = ['Schüler', 'Auszubildender'];
-            if (statusesToExcludeRCDS.includes(userStatus) && vereinigung.name === 'RCDS') {
-                include = false;
-            }
-
-            // Altersbasierte Filterung
-            if (alter !== null) {
-                if (vereinigung.name === 'SU ' && !(alter >= 12 && alter <= 24)) {
-                    include = false;
-                }
-                if ((vereinigung.name === 'JU' || vereinigung.name === 'RCDS') && !(alter >= 16 && alter <= 35)) {
-                    include = false;
-                }
-                if (vereinigung.name === 'SU' && alter < 60) {
-                    include = false;
-                }
-                if ((vereinigung.name === 'CDA' || vereinigung.name === 'KPV' || vereinigung.name === 'MIT' || vereinigung.name === 'OMV' || vereinigung.name === 'SU' || vereinigung.name === 'EKA' || vereinigung.name === 'LSU') && alter < 18) {
-                    include = false;
-                }
             }
 
             return include;
