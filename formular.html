@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Benutzerinformationen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="medien/CDU-Gesamtlogo_transparent_RGB.png" alt="CDU Logo" class="logo">
+                </a>
+            </div>
+        </header>
+        <h1>Welche Union passt zu dir?</h1>
+        <h2>Deine Informationen</h2>
+        <form id="infoForm">
+            <label for="gender">Geschlecht:</label>
+            <select id="gender" name="gender">
+                <option value="männlich">Männlich</option>
+                <option value="weiblich">Weiblich</option>
+            </select>
+
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="Schüler">Schüler</option>
+                <option value="Student">Student</option>
+                <option value="Auszubildender">Auszubildender</option>
+                <option value="Berufstätig">Berufstätig</option>
+                <option value="Sonstiges">Sonstiges</option>
+            </select>
+
+            <label for="birthdate">Geburtsdatum:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="postalcode">Postleitzahl:</label>
+            <input type="text" id="postalcode" name="postalcode" pattern="[0-9]{5}" required>
+
+            <button type="submit" class="full-width-button">Weiter</button>
+        </form>
+    </div>
+
+    <script src="formular.js"></script>
+</body>
+</html>

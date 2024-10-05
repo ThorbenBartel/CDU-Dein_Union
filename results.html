@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>CDU Vereinigungen Matcher - Ergebnis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="medien/CDU-Gesamtlogo_transparent_RGB.png" alt="CDU Logo" class="logo">
+                </a>
+            </div>
+        </header>
+        <h1>Ihr CDU-Vereinigungen Ergebnis</h1>
+        <div id="ergebniscontainer">
+            <div id="ergebnistext"></div>
+        </div>
+        <button id="start-button" class="full-width-button" onclick="zurueckZurStart()">Zurück zur Startseite</button>
+    </div>
+
+    <script src="results.js"></script>
+    <script>
+        // Funktion, um zur Startseite zurückzukehren
+        function zurueckZurStart() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

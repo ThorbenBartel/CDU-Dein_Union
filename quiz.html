@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>CDU Vereinigungen Matcher - Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="medien/CDU-Gesamtlogo_transparent_RGB.png" alt="CDU Logo" class="logo">
+                </a>
+            </div>
+        </header>
+        <main>
+            <h1>Welche Union passt zu dir?</h1>
+            <div id="fragencontainer">
+                <p id="fragenummer">Frage <span id="current-question-number"></span> von <span id="total-questions"></span></p>
+                <h2 id="fragetext"></h2>
+                <div id="antworten">
+                    <button class="full-width-button" onclick="verarbeiteAntwort('zustimmen')">Zustimmen</button>
+                    <button class="full-width-button" onclick="verarbeiteAntwort('neutral')">Neutral</button>
+                    <button class="full-width-button" onclick="verarbeiteAntwort('ablehnen')">Ablehnen</button>
+                </div>
+            </div>
+        </main>
+        <div id="videocontainer" style="display: none; text-align: center;">
+            <h2>Schau dir dieses Video an, bevor du dein Ergebnis siehst: (Das video wird noch geändert)</h2>
+            <video id="introvideo" controls>
+                <source src="medien/hendirk-Wuest-intro.MP4" type="video/mp4">
+                Dein Browser unterstützt das Video-Format nicht.
+            </video>
+            <br>
+            <!-- Button mit der Klasse .full-width-button hinzugefügt -->
+            <button id="weiter-button" class="full-width-button" onclick="zeigeErgebnisSeite()">Weiter</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

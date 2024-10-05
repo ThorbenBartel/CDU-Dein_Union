@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>CDU Vereinigungen Matcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="medien/CDU-Gesamtlogo_transparent_RGB.png" alt="CDU Logo" class="logo">
+                </a>
+            </div>
+        </header>
+        <main>
+            <h1>Welche Union passt zu dir?</h1>
+            <h2>Willkommen zum Union O-Mat</h2>
+            <!-- Neuer Absatz mit Erklärung -->
+            <p class="description-text">Hier kannst du herausfinden, welche CDU-Vereinigung am besten zu deinen Interessen und Zielen passt. Beantworte einfach ein paar Fragen, um mehr zu erfahren.</p>
+            <button id="start-button" class="full-width-button">Jetzt starten</button>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById('start-button').addEventListener('click', function() {
+            window.location.href = 'formular.html';
+        });
+    </script>
+</body>
+</html>

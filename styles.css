@@ -1,0 +1,443 @@
+/* CDU Corporate Design Farben */
+:root {
+    --cdu-turquoise: #52b7c1;
+    --cdu-blue: #2d3c4b;
+    --cdu-gold: #ffa600;
+    --cdu-black: #1b191d;
+    --cdu-white: #ffffff;
+    --headline-font: 'Inter', sans-serif;
+    --body-font: 'IBM Plex Serif', serif;
+}
+
+/* Allgemeines Styling */
+body {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--cdu-blue); /* CDU Design Hintergrundfarbe */
+}
+
+#app {
+    max-width: 600px;
+    margin: 50px auto; /* Abstand vom oberen Rand */
+    padding: 20px;
+    background-color: var(--cdu-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: right;  /* Logo rechts ausrichten */
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--cdu-turquoise);
+}
+
+.logo-container {
+    text-align: right;
+}
+
+.logo {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    color: var(--cdu-black);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: var(--headline-font);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: var(--headline-font);
+    margin-bottom: 40px;
+}
+
+/* Neuer Abschnitt für Erklärungstext */
+.description-text {
+    font-size: 1.2em;
+    color: var(--cdu-black);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Textarea Anpassung */
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border: 1px solid var(--cdu-blue);
+    border-radius: 5px;
+}
+
+/* Button Anpassung über die gesamte Breite */
+.full-width-button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--cdu-turquoise);
+    border: none;
+    border-radius: 5px;
+    color: var(--cdu-white);
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.full-width-button:hover {
+    background-color: var(--cdu-blue);
+}
+
+/* Formular Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Abstand zwischen Formularfeldern */
+}
+
+label {
+    font-size: 1.2em;
+    color: var(--cdu-black);
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid var(--cdu-blue);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Standard Button */
+button {
+    padding: 15px;
+    background-color: var(--cdu-turquoise);
+    border: none;
+    border-radius: 5px;
+    color: var(--cdu-white);
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: var(--cdu-blue);
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--cdu-blue);
+    border-radius: 3px;
+    appearance: none;
+    background-color: var(--cdu-white);
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px; /* Platz neben dem Text */
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--cdu-turquoise);
+    border-color: var(--cdu-turquoise);
+    position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    font-size: 16px;
+    color: var(--cdu-white);
+}
+
+/* Quiz Styling */
+#fragenummer {
+    font-size: 1.2em;
+    text-align: left;
+    color: var(--cdu-black);
+    margin-bottom: 10px;
+}
+
+#fragetext {
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 20px;
+    color: var(--cdu-black);
+}
+
+#antworten button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cdu-turquoise);
+    color: var(--cdu-white);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#antworten button:hover {
+    background-color: var(--cdu-blue);
+}
+
+button#weiter-button {
+    padding: 10px 20px;
+    background-color: var(--cdu-turquoise);
+    color: var(--cdu-white);
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#weiter-button:hover {
+    background-color: var(--cdu-blue);
+}
+
+/* Video Container */
+#videocontainer video {
+    width: 100%; /* Video nimmt auf mobilen Geräten volle Breite ein */
+    max-width: 600px; /* Begrenzung der Breite für größere Bildschirme */
+    margin: auto; /* Video zentrieren */
+}
+
+/* Ergebnis Styling */
+.ergebnis-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.ergebnis-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--cdu-black);
+    margin-bottom: 10px;
+}
+
+.ergebnis-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.ergebnis-fill {
+    height: 100%;
+    background-color: var(--cdu-turquoise);
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s;
+}
+
+.ergebnis-prozent {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--cdu-blue);
+}
+
+.details-content {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.details-content p {
+    font-size: 1.2em;
+    color: var(--cdu-black);
+}
+
+.details-content a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--cdu-turquoise);
+    text-decoration: none;
+}
+
+.details-content a:hover {
+    text-decoration: underline;
+}
+
+/* Veranstaltung Styling */
+.veranstaltung {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+/* Zusätzlicher Button für Vereinigungen */
+.btn-vereinigung {
+    display: inline-block;
+    width: 100%; /* Über gesamte Breite */
+    padding: 15px;
+    background-color: var(--cdu-turquoise);
+    border: none;
+    border-radius: 5px;
+    color: var(--cdu-white);
+    font-size: 1.2em;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn-vereinigung:hover {
+    background-color: var(--cdu-blue);
+}
+
+/* Trennstrich */
+.trennlinie {
+    border-top: 2px solid var(--cdu-turquoise); /* Türkisfarbene Trennlinie */
+    margin: 20px 0; /* Abstand zur besseren Lesbarkeit */
+}
+
+/* Hinweis "Veranstaltungen" */
+.veranstaltung-hinweis {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: var(--cdu-gold); /* Orangefarbener Hintergrund */
+    border-radius: 5px;
+    text-align: center;
+    color: var(--cdu-white); /* Ändert die Textfarbe in Weiß */
+}
+
+.veranstaltung-hinweis h3 {
+    font-size: 1.5em;
+    color: var(--cdu-white); /* Weißer Text */
+    margin: 0;
+}
+
+/* Veranstaltung Styling */
+.veranstaltung {
+    margin-top: 5px; /* Weniger Abstand zwischen den Blöcken */
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+/* Veranstaltungstitel Styling */
+.veranstaltung h4 {
+    font-size: 1.2em;
+    margin-bottom: 3px; /* Weniger Abstand unter der Überschrift */
+    margin-top: 5px; /* Weniger Abstand oberhalb der Überschrift */
+}
+
+/* Veranstaltung Styling */
+.veranstaltung p {
+    font-size: 1.1em;
+    margin-bottom: 0; /* Kein Abstand zwischen den Absätzen */
+    padding-bottom: 0; /* Kein zusätzlicher Innenabstand */
+    line-height: 1.2; /* Kompakterer Zeilenabstand */
+}
+
+.veranstaltung p strong {
+    display: inline-block;
+    margin-bottom: 0; /* Kein Abstand unter den fettgedruckten Texten */
+}
+
+/* Link zum Anmelden */
+.veranstaltung a {
+    color: #52b7c1; /* Türkisfarbener Link */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.veranstaltung a:hover {
+    text-decoration: underline; /* Unterstreichen beim Hover */
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--cdu-blue);
+    border-radius: 3px;
+    appearance: none;
+    background-color: var(--cdu-white);
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px; /* Platz neben dem Text */
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--cdu-turquoise);
+    border-color: var(--cdu-turquoise);
+    position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    font-size: 14px;
+    color: var(--cdu-white);
+}
+
+/* Responsive Anpassungen für mobile Geräte */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    input, select, button {
+        font-size: 1em;
+    }
+
+    #app {
+        padding: 10px;
+    }
+
+    #antworten button {
+        font-size: 1em;
+    }
+
+    button#weiter-button {
+        width: 100%;
+    }
+
+    .ergebnis-item {
+        margin-bottom: 15px;
+    }
+
+    .ergebnis-bar {
+        height: 20px;
+    }
+
+    .ergebnis-name {
+        font-size: 1.2em;
+    }
+
+    .ergebnis-prozent {
+        font-size: 1em;
+    }
+
+    #videocontainer video {
+        width: 100%;
+    }
+}
