@@ -1,39 +1,11 @@
 {
     "vereinigungen": [
       {
-        "name": "JU",
+        "name": "CDU",
         "langName": "Junge Union Deutschlands (JU)",
         "punkte": 0,
         "website": "https://www.ju-nrw.de/mitmachen",
         "beschreibung": "Die Junge Union Deutschlands ist die Jugendorganisation der CDU und CSU und richtet sich an politisch interessierte junge Menschen bis 35 Jahre."
-      },
-      {
-        "name": "FU",
-        "langName": "Frauen-Union (FU)",
-        "punkte": 0,
-        "website": "https://www.frauenunion.de/mitglied-werden",
-        "beschreibung": "Die Frauen-Union ist die Vereinigung der Frauen in der CDU und CSU. Sie setzt sich für die Gleichberechtigung von Frauen und Männern ein und vertritt die Interessen von Frauen in der Partei."
-      },
-      {
-        "name": "CDA",
-        "langName": "Christlich-Demokratische Arbeitnehmerschaft (CDA)",
-        "punkte": 0,
-        "website": "https://www.cda-bund.de/mitmachen",
-        "beschreibung": "Die Christlich-Demokratische Arbeitnehmerschaft ist die Vereinigung der Arbeitnehmer in der CDU und CSU. Sie setzt sich für die Interessen von Arbeitnehmern ein und vertritt diese in der Partei."
-      },
-      {
-        "name": "MIT",
-        "langName": "Mittelstands- und Wirtschaftsvereinigung (MIT)",
-        "punkte": 0,
-        "website": "https://www.mit-bund.de/mitgliedschaft",
-        "beschreibung": "Die Mittelstands- und Wirtschaftsvereinigung ist die Vereinigung der mittelständischen Unternehmer in der CDU und CSU. Sie setzt sich für die Interessen des Mittelstands ein und vertritt diese in der Partei."
-      },
-      {
-        "name": "RCDS",
-        "langName": "Ring Christlich-Demokratischer Studenten (RCDS)",
-        "punkte": 0,
-        "website": "https://www.rcds.de/vor-ort/",
-        "beschreibung": "Der Ring Christlich-Demokratischer Studenten ist die Vereinigung der christlich-demokratischen Studenten in Deutschland. Er setzt sich für die Interessen der Studenten ein und vertritt diese in der Partei."
       }
     ]
   }

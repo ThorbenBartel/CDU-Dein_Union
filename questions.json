@@ -3,24 +3,24 @@
     {
       "text": "Soziale Gerechtigkeit und Leistungsgerechtigkeit sind für mich kein Widerspruch?",
       "effekte": {
-        "zustimmen": ["FU", "CDA"],
-        "neutral": ["RCDS", "JU"],
-        "ablehnen": ["MIT"]
+        "zustimmen": [],
+        "neutral": ["CDU"],
+        "ablehnen": []
       }
     },
     {
       "text": "Wir müssen das Bürgergeld einer kritischen Überarbeitung unterziehen?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS"],
-        "neutral": ["CDA", "FU"],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
     {
       "text": "Unser Bildungssystem muss wieder mehr auf Leistung und messbaren Bildungserfolg ausgerichtet werden?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS"],
-        "neutral": ["CDA", "FU"],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
@@ -29,21 +29,21 @@
       "effekte": {
         "zustimmen": [],
         "neutral": [],
-        "ablehnen": ["JU", "MIT", "RCDS", "CDA", "FU"]
+        "ablehnen": ["CDU"]
       }
     },
     {
       "text": "Klimaschutz brauchen wir nicht, wichtig ist ganz allein der wirtschaftliche Erfolg?",
       "effekte": {
-        "zustimmen": ["JU", "MIT"],
-        "neutral": ["RCDS"],
-        "ablehnen": ["CDA", "FU"]
+        "zustimmen": ["CDU"],
+        "neutral": [],
+        "ablehnen": []
       }
     },
     {
       "text": "Das Existenzrecht Israels ist nicht verhandelbar?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS", "CDA", "FU" ],
+        "zustimmen": ["CDU" ],
         "neutral": [],
         "ablehnen": []
       }
@@ -53,13 +53,13 @@
       "effekte": {
         "zustimmen": [],
         "neutral": [],
-        "ablehnen": ["MIT", "JU", "RCDS", "CDA", "FU"]
+        "ablehnen": ["CDU"]
       }
     },
     {
       "text": "Die staatlichen Behörden benötigen erweiterte Befugnisse zur Terrorismusbekämpfung?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS", "CDA", "FU" ],
+        "zustimmen": ["CDU" ],
         "neutral": [],
         "ablehnen": []
       }
@@ -67,15 +67,15 @@
     {
       "text": "Grenzkontrollen erhalten die Freiheit in Europa und schränken sie nicht ein?",
       "effekte": {
-        "zustimmen": ["MIT", "JU" ],
-        "neutral": ["RCDS", "CDA", "FU" ],
+        "zustimmen": ["CDU" ],
+        "neutral": [],
         "ablehnen": []
       }
     },
     {
       "text": "Der Wohlstand wird durch einen starken Mittelstand erhalten?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS", "CDA", "FU" ],
+        "zustimmen": ["CDU" ],
         "neutral": [],
         "ablehnen": []
       }
@@ -84,39 +84,39 @@
       "text": "Wir brauchen keinerlei Zuwanderung zur Stärkung unserer Wirtschaft?",
       "effekte": {
         "zustimmen": [ ],
-        "neutral": ["MIT", "JU"],
-        "ablehnen": ["RCDS", "CDA", "FU"]
+        "neutral": ["CDU"],
+        "ablehnen": []
       }
     },
     {
       "text": "Arbeit ist ein wichtiger Teil meines Lebens?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS", "CDA", "FU"  ],
-        "neutral": ["RCDS"],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
     {
       "text": "Umweltschutz kann nur mit der Wirtschaft realisiert werden, nicht gegen sie?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS"],
-        "neutral": ["CDA", "FU" ],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
     {
       "text": "Deutschland muss als Standort wieder attraktiv werden. Die Wettbewerbsfähigkeit darf nicht durch andere Ziele gefährdet werden?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS"],
-        "neutral": ["CDA", "FU" ],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
     {
       "text": "Ich fühle mich an manchen Orten nicht mehr sicher?",
       "effekte": {
-        "zustimmen": ["MIT", "JU", "RCDS", "FU"],
-        "neutral": ["CDA" ],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
@@ -124,39 +124,39 @@
       "text": "Die Stärkung der Bundeswehr und die hohen Investitionen sind ein Fehler?",
       "effekte": {
         "zustimmen": [],
-        "neutral": ["MIT", "CDA", "FU" ],
-        "ablehnen": ["JU", "RCDS"]
+        "neutral": [],
+        "ablehnen": ["CDU"]
       }
     },
     {
       "text": "Neue Schulden sind richtig und wichtig?",
       "effekte": {
-        "zustimmen": ["CDA"],
-        "neutral": ["FU"],
-        "ablehnen": ["MIT", "JU", "RCDS"]
+        "zustimmen": [],
+        "neutral": [],
+        "ablehnen": ["CDU"]
       }
     },
     {
       "text": "Deutschland sollte nur auf erneuerbare Energien setzen?",
       "effekte": {
         "zustimmen": [],
-        "neutral": ["CDA", "FU"],
-        "ablehnen": ["MIT", "JU", "RCDS"]
+        "neutral": [],
+        "ablehnen": ["CDU"]
       }
     },
     {
       "text": "Familien sollten besonders gefördert werden?",
       "effekte": {
-        "zustimmen": ["JU", "RCDS", "CDA", "FU" ],
-        "neutral": ["MIT"],
+        "zustimmen": ["CDU"],
+        "neutral": [],
         "ablehnen": []
       }
     },
     {
       "text": "Digitalisierung und Innovation muss konsequent zum Erhalt unseres Wohlstands angegangen werden?",
       "effekte": {
-        "zustimmen": ["JU", "RCDS", "MIT", "FU" ],
-        "neutral": ["CDA"],
+        "zustimmen": ["CDU" ],
+        "neutral": [],
         "ablehnen": []
       }
     },
@@ -164,8 +164,8 @@
       "text": "Die Gleichberechtigung steht im Grundgesetz, mehr Maßnahmen sind nicht erforderlich?",
       "effekte": {
         "zustimmen": [],
-        "neutral": ["JU", "RCDS", "MIT" ],
-        "ablehnen": ["FU", "CDA"]
+        "neutral": ["CDU" ],
+        "ablehnen": []
       }
     },
     {
@@ -173,22 +173,22 @@
       "effekte": {
         "zustimmen": [],
         "neutral": [],
-        "ablehnen": ["MIT", "JU", "RCDS", "CDA", "FU" ]
+        "ablehnen": ["CDU"]
       }
     },
     {
       "text": "Das Gesundheitssystem sollte privatisiert werden?",
       "effekte": {
-        "zustimmen": ["MIT" ],
-        "neutral": ["JU"],
-        "ablehnen": ["RCDS", "CDA", "FU"]
+        "zustimmen": [ ],
+        "neutral": ["CDU"],
+        "ablehnen": []
       }
     },
     {
       "text": "Das Landarztprogramm sollte erweitert werden?",
       "effekte": {
-        "zustimmen": ["JU", "RCDS", "CDA", "FU" ],
-        "neutral": ["MIT"],
+        "zustimmen": ["CDU" ],
+        "neutral": [],
         "ablehnen": []
       }
     }
