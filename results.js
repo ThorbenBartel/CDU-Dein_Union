@@ -83,6 +83,35 @@
         })
         .catch(error => console.error('Fehler beim Laden der PLZ-Daten:', error));
 
+    // Funktion zur Anzeige des GIFs basierend auf dem Prozentsatz
+function zeigeGif(prozent) {
+    let gifHtml = '';
+
+    if (prozent < 50) {
+        gifHtml = `
+            <div class="tenor-gif-embed" data-postid="21192074" data-share-method="host" data-aspect-ratio="1.00946" data-width="100%">
+            <a href="https://tenor.com/view/laschet-armin-laschet-cdu-kanzler-facep-gif-21192074">Laschet Armin Laschet GIF</a>
+            from <a href="https://tenor.com/search/laschet-gifs">Laschet GIFs</a></div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>`;
+    } else if (prozent >= 50 && prozent <= 75) {
+        gifHtml = `
+            <div class="tenor-gif-embed" data-postid="23215141" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%">
+            <a href="https://tenor.com/view/friedrich-merz-merz-cdu-csu-friedrich-gif-23215141">Friedrich Merz Cdu GIF</a>
+            from <a href="https://tenor.com/search/friedrich+merz-gifs">Friedrich Merz GIFs</a></div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>`;
+    } else if (prozent > 75) {
+        gifHtml = `
+            <div class="tenor-gif-embed" data-postid="20876379" data-share-method="host" data-aspect-ratio="1.15108" data-width="100%">
+            <a href="https://tenor.com/view/helmut-kohl-kohl-klatscht-klatschen-cdu-wir-schaffen-das-gif-20876379">Helmut Kohl Klatscht GIF</a>
+            from <a href="https://tenor.com/search/helmut+kohl-gifs">Helmut Kohl GIFs</a></div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>`;
+    }
+
+    // Füge das GIF in das Ergebnis-Element ein
+    document.getElementById('gifcontainer').innerHTML = gifHtml;
+}    
+
+    
     // Ergebnisse und Veranstaltungen anzeigen
     function zeigeErgebnis(vereinigungenAnzeigen, alleVereinigungen, stadt, veranstaltungen) {
         // Berechne die maximale Punktzahl über alle Vereinigungen
@@ -104,9 +133,12 @@
             prozent = 100; // Wenn keine Punkte vergeben wurden, setzen wir den Prozentwert auf 100%
         }
 
-        let ergebnisText = "<br><br>";
+        // Zeige das GIF abhängig vom Prozentsatz
+    zeigeGif(prozent);
 
-        ergebnisText += `
+        //let ergebnisText = "<br><br>";
+
+        let ergebnisText = `
             <div class="ergebnis-item">
             <details>
                 <summary>
